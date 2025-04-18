@@ -1,2 +1,2 @@
 # Projects
-Collection of projects
+### Check branches for the projects
