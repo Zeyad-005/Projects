@@ -1,2 +1,2 @@
 # Projects
-Collection of projects
+## Welcome to the "Mental Health GPT" project!
