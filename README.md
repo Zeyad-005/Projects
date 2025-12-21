@@ -1,5 +1,5 @@
 
-## 📁 Welcome to "MAGIC Gamma Telescope Classification" Project
+## 🔭 Welcome to "MAGIC Gamma Telescope Classification" Project
 
 ### Overview
 This project tackles a classic classification problem using the **MAGIC Gamma Telescope** dataset. The goal is to distinguish high-energy gamma particles (signal) from hadronic particles (background) captured by the telescope.
