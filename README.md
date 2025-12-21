@@ -1,5 +1,5 @@
 
-## 📁 Welcome to "Car Price Prediction - Geely Auto US Market Analysis" Project (Regression)
+## 🚗 Welcome to "Car Price Prediction - Geely Auto US Market Analysis" Project (Regression)
 
 ### Overview
 This project addresses a regression problem using the **Geely Auto Car Data**. The goal is to build a model that can predict the car price for Geely Auto's strategic entry into the US market.
