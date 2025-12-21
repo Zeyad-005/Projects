@@ -19,6 +19,7 @@ This project addresses a regression problem using the **Geely Auto Car Data**. T
 ### Dataset
 **Name:** Car Price Prediction (Geely Auto)  
 **Source:** [Car Price Prediction Dataset on Kaggle] --> (https://www.kaggle.com/datasets/hellbuoy/car-price-prediction)
+
 **Target Variable:** `price` (Manufacturer’s suggested retail price in USD)
 
 ### Key Steps
