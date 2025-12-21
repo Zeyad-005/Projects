@@ -1,76 +1,34 @@
-# Projects
-## Welcome to the "Car Price Prediction - Geely Auto US Market Analysis" project!
 
-### 📌 Overview:
-#### This project aims to help Geely Auto, a Chinese automobile company, understand the key factors influencing car prices in the US market. By leveraging machine learning and data science techniques, we analyze various car features to build a predictive model that accurately estimates vehicle pricing. The insights will assist Geely Auto in making data-driven decisions for market entry, pricing strategies, and product design.
+## 📁 Welcome to "Car Price Prediction - Geely Auto US Market Analysis" Project (Regression)
 
-### 📂 Dataset:
-#### The dataset contains various car features, including:
-##### 1. Car characteristics (e.g: Wheel_Base, Length, Width, Height, Curb_Weight)
-##### 2. Engine specifications (e.g: Engine_Size, Horsepower, Fuel_Type)
-##### 3. Market-related factors (e.g: Brand, Body_Style, Aspiration)
+### Overview
+This project addresses a regression problem using the **Geely Auto Car Data**. The goal is to build a model that can predict the car price for Geely Auto's strategic entry into the US market.
 
-### 📊 Key Features Analyzed:
-#### 1. Car Identification:
-##### car_ID --> Unique identifier for each vehicle
-##### CarName -->	Brand and model (e.g., "bmw x5")
+### Objectives
+1.  **Data Loading & Inspection:** Load the dataset from Kaggle and perform initial inspection.
+2.  **Exploratory Data Analysis (EDA):** Derive visuals to determine correlation between different features (Heatmap, Pie Charts, Box Plots, etc.).
+3.  **Data Pre-Processing & Feature Engineering:** Handle missing values, outliers, and derive new features if necessary.
+4.  **Encoding Features & Normalization:** Encode categorical features and scale numerical features.
+5.  **Data Splitting:** Split your dataset randomly for training, validation, and testing.
+6.  **Model Building & Training:** Apply linear regression and other models. Implement from scratch using matrix operations (normal equation, gradient descent) and compare with Scikit-Learn.
+7.  **Regularization:** Apply L2 Regularization (Ridge Regression) and L1 Regularization (Lasso Regression). Try different regularization parameters & plot validation error vs. regularization parameter.
+8.  **Feature Selection:** Select the features with high correlations to the target variable.
+9.  **Model Evaluation:** Report Mean Square Error (MSE) and Mean Absolute Error (MAE) for all models.
+10. **Results Analysis:** Add comments on the results and compare between the models.
 
-#### 2. Safety & Risk
-##### symboling --> Insurance risk rating (-3 to +3, where +3 = high risk) |
+### Dataset
+**Name:** Car Price Prediction (Geely Auto)  
+**Source:** [Car Price Prediction Dataset on Kaggle] --> (https://www.kaggle.com/datasets/hellbuoy/car-price-prediction)
+**Target Variable:** `price` (Manufacturer’s suggested retail price in USD)
 
-#### 3. Physical Attributes
-##### wheelbase --> Distance between front/rear axles (inches)
-##### carlength --> Vehicle length (inches)
-##### carwidth --> Vehicle width (inches)
-##### carheight --> Vehicle height (inches)
-##### curbweight --> Weight without passengers (lbs)
-##### doornumber --> Number of doors (2 or 4)
-
-#### 4. Engine & Performance
-##### enginetype --> Engine configuration (e.g., "dohc")
-##### cylindernumber --> Number of cylinders (e.g., "four")
-##### enginesize --> Engine displacement (cubic inches)
-##### fuelsystem --> Fuel delivery system (e.g., "mpfi")
-##### boreratio --> Cylinder bore ratio
-##### stroke --> Piston stroke length (inches)
-##### compressionratio --> Engine compression ratio
-##### horsepower --> Engine power (HP)
-##### peakrpm --> Maximum RPM
-
-#### 5. Fuel Efficiency
-##### citympg --> City miles per gallon (fuel economy) 
-##### highwaympg --> Highway miles per gallon
-
-#### 6. Categorical Features
-##### fueltype --> "gas" or "diesel"
-##### aspiration --> "turbo" or "standard"
-##### carbody --> Body type (e.g., "sedan", "hatchback")
-##### drivewheel --> "fwd", "rwd", or "4wd"
-##### enginelocation --> "front" or "rear"
-
-#### 7. Target Variable
-##### price --> Manufacturer’s suggested retail price (USD) 
-
-### 🔍 Methodology:
-#### Step 1: Loading Dataset from Kaggle
-#### Step 2: EDA (Exploratory Data Analysis)
-#### Step 3: Deriving visuals to determine correlation between different features visually (Heatmap, Pie Charts, Box Plots, etc.)
-#### Step 4: Data Pre-Processing 
-#### Step 5: Encoding Features  
-#### Step 6: Obtaining Correlation with Target
-#### Step 7: Data Normalization
-#### Step 8: Data Splitting
-#### Step 9: Model Building
-#### Step 10: Training the Model
-#### Step 11: Selecting the features with high correlations
-
-
-
-
-
-
-
-
-
-
-
+### Key Steps
+1.  Loading Dataset from Kaggle
+2.  EDA (Exploratory Data Analysis) and Visualizing Correlations
+3.  Data Pre-Processing (Handling Missing Values, Scaling)
+4.  Encoding Categorical Features
+5.  Obtaining Correlation with Target and Feature Selection
+6.  Data Normalization
+7.  Data Splitting (Training, Validation, Testing Sets)
+8.  Model Building (Linear, Ridge, Lasso Regression from scratch and via Scikit-Learn)
+9.  Training the Model and Hyperparameter Tuning
+10. Model Evaluation using MSE, MAE, and R² Score
