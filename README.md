@@ -1,5 +1,5 @@
 
-## 📁 Welcome to "California Housing Price Prediction" Project (Regression)
+## 🏠 Welcome to "California Housing Price Prediction" Project (Regression)
 
 ### Overview
 This project addresses a regression problem using the **California Census Data**. The goal is to build a model that can predict the median house value for any district in California.
