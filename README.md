@@ -1,7 +1,7 @@
-# 🧭 Welcome to "Reinforcement Learning - Grid World Navigation" Project (Value Iteration)
+# 🧭 Welcome to "Reinforcement Learning - Grid World Navigation" Project (Value Iteration + Policy Iteration)
 
 ## Overview
-This project addresses a reinforcement learning problem using a 5×5 stochastic grid world. The goal is to implement value iteration from scratch to find optimal policies under different reward configurations and analyze how reward structures influence agent behavior.
+This project addresses a reinforcement learning problem using a 5×5 stochastic grid world. The goal is to implement value iteration and policy iteration from scratch to find optimal policies under different reward configurations and analyze how reward structures influence agent behavior.
 
 ## Objectives
 - **Environment Modeling**: Implement the 5×5 grid world with stochastic transitions
