@@ -1,7 +1,7 @@
 # Projects (Check branches for the projects):
 
 ## NLP:
-#### *Mental Health GPT (NLP)
+#### 1. Mental Health GPT (NLP)
 
 ## Machine Learning:
 ### Supervised Learning:
@@ -14,3 +14,7 @@
 #### 7. Breast Cancer Wisconsin (K-Means + PCA)
 
 ## AI:
+#### 8. 8-Puzzle Solver (Search Algorithms)
+#### 9. Connect-Four Game (Min-Max + Alpha-Beta Pruning)
+#### 10. Sudoku Solver (CSP)
+#### 11. Reinforcement Learning (Value Iteration + Policy Iteration) 
