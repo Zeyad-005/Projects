@@ -1,4 +1,4 @@
-# 9️⃣ Welcome to "Sudoku Solver - Constraint Satisfaction Problem" Project (CSP)
+# 9️⃣ Welcome to "Sudoku Solver - CSP" Project
 
 ## Overview
 This project addresses a constraint satisfaction problem by implementing arc consistency algorithms to solve Sudoku puzzles. The goal is to demonstrate CSP concepts through a complete Sudoku solver with detailed logging and visualization.
