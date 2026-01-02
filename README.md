@@ -1,7 +1,7 @@
 # Projects (Check branches for the projects):
 
 ## NLP:
-#### 1. Mental Health GPT (NLP)
+#### *Mental Health GPT (NLP)
 
 ## Machine Learning:
 ### Supervised Learning:
