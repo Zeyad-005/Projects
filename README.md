@@ -1,20 +1,46 @@
-# Projects (Check branches for the projects):
+# 🔴🟡 Welcome to "Connect 4 AI Agent - Minimax Algorithms" Project (Game AI)
 
-## NLP:
-#### 1. Mental Health GPT (NLP)
+## Overview
+This project addresses a game AI problem by creating an intelligent Connect 4 agent using search algorithms. The goal is to implement and compare different minimax variants with heuristic evaluation to create a challenging AI opponent.
 
-## Machine Learning:
-### Supervised Learning:
-#### 2. Car Price Prediction (Regression)
-#### 3. MAGIC Gamma Telescope Data (Classification) 
-#### 4. California Housing Price Prediction (Regression)
-#### 5. Mushrooms Classification (Decision Trees)
-#### 6. Wine Quality Classification (GDA)
-### Unsupervised Learning:
-#### 7. Breast Cancer Wisconsin (K-Means + PCA)
+## Objectives
+- **Game Implementation**: Create a complete Connect 4 game with GUI
+- **AI Algorithms**: Implement three minimax variants
+- **Heuristic Design**: Create sophisticated evaluation functions
+- **Tree Visualization**: Display search trees in readable format
+- **Performance Analysis**: Compare algorithm efficiency
+- **Interactive Gameplay**: Human vs. AI with configurable parameters
 
-## AI:
-#### 8. 8-Puzzle Solver (Search Algorithms)
-#### 9. Connect-Four Game (Min-Max + Alpha-Beta Pruning)
-#### 10. Sudoku Solver (CSP)
-#### 11. Reinforcement Learning (Value Iteration + Policy Iteration) 
+## Game Details
+- **Board Dimensions**: Width ≥ 7, Height ≥ 6
+- **Win Condition**: Connect four discs vertically, horizontally, or diagonally
+- **Game End**: Play until board is full, winner has more connected fours
+- **AI Algorithms**:
+  1. Minimax without alpha-beta pruning
+  2. Minimax with alpha-beta pruning
+  3. Expected Minimax (with probability distribution)
+
+## Key Steps
+1. Connect 4 Game Engine Implementation
+2. GUI Development for Human vs. Computer Play
+3. Minimax Algorithm Implementation (Three Variants)
+4. Heuristic Function Design and Evaluation
+5. Tree Pruning with Depth Limit K
+6. Search Tree Visualization and Logging
+7. Performance Comparison and Analysis
+
+## Implementation Requirements
+- ✅ Complete Connect 4 game with GUI
+- ✅ Three AI algorithms with configurable options
+- ✅ Heuristic pruning with depth limit K
+- ✅ Readable tree printing to console
+- ✅ Performance metrics collection
+- ✅ Comprehensive testing and validation
+
+## Expected Deliverables
+- Well-commented game and AI code
+- Interactive GUI with configurable AI settings
+- Detailed report with sample runs and trees
+- Performance comparison tables and graphs
+- Heuristic function documentation
+- Bonus: GUI tree visualization
